@@ -1,0 +1,51 @@
+body, html{
+  background-image: url("wallpaper.jpg");
+  height: 100%;
+}
+
+body h1 {
+  font-family: sans-serif;
+  color:green;
+  text-align: center;
+  font-size: 80pt;
+}
+body h2 {
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+body h3 {
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+body h4 {
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+body h5 {
+  color: white;
+  text-align: left;
+  font-family: sans-serif;
+}
+
+body section {
+  font-family: monospace;
+  color: #a0a0a0;
+  font-size: 15pt;
+  font-weight: 400;
+
+}
+pre.border {
+  border-style: double;
+  border-width: 1px;
+  width: 70%;
+}
+strong.command {
+  color: green;
+  text-decoration: underline;
+}
