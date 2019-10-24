@@ -1,6 +1,7 @@
 body, html{
   background-image: url("wallpaper.jpg");
   height: 100%;
+  background-attachment: fixed;
 }
 
 body h1 {

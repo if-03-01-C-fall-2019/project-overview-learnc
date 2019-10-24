@@ -19,13 +19,15 @@
     </section>
     <section>
       <h2>Here's a list of the topics that will be discussed in this short summary of the basics of C#</h2>
-      <p>1. Basic structure of a C# program</p>
-      <p>2. Basic output</p>
-      <p>3. Different Variable types and their usage</p>
-      <p>4. Getting Input from the user</p>
-      <p>5. Arrays</p>
-      <p>6. Methods and their usages</p>
-      <p>7. Structs</p>
+      <ol>
+        <li>Basic structure of a C# program</li>
+        <li>Basic output</li>
+        <li>Different Variable types and their usage</li>
+        <li>Getting Input from the user</li>
+        <li>Arrays</li>
+        <li>Methods and their usages</li>
+        <li>Structs</li>
+      </ol>
     </section>
     <br>
     <section>
@@ -89,49 +91,50 @@ namespace Introduction
       <h4>Integer types</h4>
       <p>With integer types you can declare an integer value.
         This is the list with the different integer types:</p>
-      <ul>
-        <li>sbyte</li>
-        <p>A sbyte is a signed 8-bits integer. That means you can declare it with a number between -128 and 127.</p>
+      <dl>
+        <dt>sbyte</dt>
+        <dd>A sbyte is a signed 8-bits integer. That means you can declare it with a number between -128 and 127.</dd>
         <br>
-        <li>byte</li>
-        <p>A byte is a unsigned 8-bits integer. That means you can declare it with a number between 0 and 255(2^8).</p>
+        <dt>byte</dt>
+        <dd>A byte is a unsigned 8-bits integer. That means you can declare it with a number between 0 and 255(2^8).</dd>
         <br>
-        <li>short</li>
-        <p>A short is a signed 16-bits integer. That means you can declare it with a number between -32,768 and 32,767.</p>
+        <dt>short</dt>
+        <dd>A short is a signed 16-bits integer. That means you can declare it with a number between -32,768 and 32,767.</dd>
         <br>
-        <li>ushort</li>
-        <p>A ushort is a unsigned 16-bits integer. That means you can declare it with a number between 0 and 65,535(2^16).</p>
+        <dt>ushort</dt>
+        <dd>A ushort is a unsigned 16-bits integer. That means you can declare it with a number between 0 and 65,535(2^16).</dd>
         <br>
-        <li>int</li>
-        <p>A int is a signed 32-bits integer. That means you can declare it with a number between -2,147,483,648 and 2,147,483,647.</p>
+        <dt>int</dt>
+        <dd>A int is a signed 32-bits integer. That means you can declare it with a number between -2,147,483,648 and 2,147,483,647.</dd>
         <br>
-        <li>uint</li>
-        <p>A uint is a unsigned 32-bits integer. That means you can declare it with a number between 0 and 4,294,967,295(2^32).</p>
+        <dt>uint</dt>
+        <dd>A uint is a unsigned 32-bits integer. That means you can declare it with a number between 0 and 4,294,967,295(2^32).</dd>
         <br>
-        <li>long</li>
-        <p>A long is a signed 64-bits integer. That means you can declare it with a number between
-          -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.</p>
+        <dt>long</dt>
+        <dd>A long is a signed 64-bits integer. That means you can declare it with a number between
+          -9,223,372,036,854,775,808 and 9,223,372,036,854,775,807.</dd>
         <br>
-        <li>ulong</li>
-        <p>A ulong is a unsigned 64-bits integer. That means you can declare it with a number between 0 and 18,446,744,073,709,551,615(2^64).</p>
+        <dt>ulong</dt>
+        <dd>A ulong is a unsigned 64-bits integer. That means you can declare it with a number between
+          0 and 18,446,744,073,709,551,615(2^64).</dd>
         <br>
-      </ul>
+      </dl>
       <p>At the beginnning, we would recommend to use int.</p>
 
       <h4>Floating-point types</h4>
       <p>With floating-point types you can declare a floating-point number value.
       This is the list with the different floating-point types:</p>
-      <ul>
-        <li>float</li>
-        <p>A float is a signed 4-byte float. That means you can declare it with a number between ±1.5 x 10^-45 and ±3.4 x 10^38.</p>
+      <dl>
+        <dt>float</dt>
+        <dd>A float is a signed 4-byte float. That means you can declare it with a number between ±1.5 x 10^-45 and ±3.4 x 10^38.</dd>
         <br>
-        <li>double</li>
-        <p>A double is a signed 8-byte float. That means you can declare it with a number between ±5.0 × 10^-324 and ±1.7 × 10^308.</p>
+        <dt>double</dt>
+        <dd>A double is a signed 8-byte float. That means you can declare it with a number between ±5.0 × 10^-324 and ±1.7 × 10^308.</dd>
         <br>
-        <li>decimal</li>
-        <p>A decimal is a signed 16-byte float. That means you can declare it with a number between ±1.0 x 10^-28 and ±7.9228 x 10^28.</p>
+        <dt>decimal</dt>
+        <dd>A decimal is a signed 16-byte float. That means you can declare it with a number between ±1.0 x 10^-28 and ±7.9228 x 10^28.</dd>
         <br>
-      </ul>
+      </dl>
 
       <h4>Bool</h4>
       A bool describes if a statement is <strong>true</strong> or <strong>false</strong>.</p>
