@@ -173,7 +173,7 @@ namespace Introduction
       <h4>Floating-point types</h4>
       <p>With floating-point types you can declare a floating-point number value.
       This is the list with the different floating-point types:</p>
-      <dl>
+      <!-- <dl>
         <dt>float</dt>
         <dd>A float is a signed 4-byte float. That means you can declare it with a number between ±1.5 x 10^-45 and ±3.4 x 10^38.</dd>
         <br>
@@ -183,8 +183,24 @@ namespace Introduction
         <dt>decimal</dt>
         <dd>A decimal is a signed 16-byte float. That means you can declare it with a number between ±1.0 x 10^-28 and ±7.9228 x 10^28.</dd>
         <br>
-      </dl>
-
+      </dl> -->
+      <table>
+        <tr>
+          <td>float</td>
+          <td>A signed 4-byte float</td>
+          <td>You can declare it with a number between ±1.5 x 10^-45 and ±3.4 x 10^38</td>
+        </tr>
+        <tr>
+          <td>double</td>
+          <td>A signed 8-byte float</td>
+          <td>You can declare it with a number between ±5.0 × 10^-324 and ±1.7 × 10^308</td>
+        </tr>
+        <tr>
+          <td>decimal</td>
+          <td>A signed 16-byte float</td>
+          <td>You can declare it with a number between ±1.0 x 10^-28 and ±7.9228 x 10^28</td>
+        </tr>
+      </table>
       <h4>Bool</h4>
       A bool describes if a statement is <strong>true</strong> or <strong>false</strong>.</p>
       <br>
