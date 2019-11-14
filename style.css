@@ -4,6 +4,11 @@ body, html{
   background-attachment: fixed;
 }
 
+#about_us {
+    text-align: center;
+    font-size: 40pt;
+  }
+
 body h1 {
   font-family: sans-serif;
   color:green;
@@ -50,9 +55,20 @@ strong.command {
   color: green;
   text-decoration: underline;
 }
+strong.command:hover {
+  color: #2c9e15;
+}
 table {
   border-collapse: collapse;
+  width: 80%;
 }
-table, th, td {
-  border: 1px solid white;
+
+th, td {
+  padding: 10px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+tr:hover {
+  background-color: #355678;
 }
