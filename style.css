@@ -68,6 +68,9 @@ th, td {
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
+th {
+  font-size: 18pt;
+}
 
 tr:hover {
   background-color: #355678;
