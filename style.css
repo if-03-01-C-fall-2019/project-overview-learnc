@@ -43,7 +43,7 @@ body section {
   font-family: monospace;
   color: #a0a0a0;
   font-size: 15pt;
-  font-weight: 400;
+  font-weight: 4000;
 
 }
 pre.border {
@@ -72,6 +72,6 @@ th {
   font-size: 18pt;
 }
 
-tr:hover {
+/* tr:hover {
   background-color: #355678;
-}
+} */
