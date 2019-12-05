@@ -58,7 +58,7 @@ strong.command {
 strong.command:hover {
   color: #2c9e15;
 }
-table {
+table, thead {
   border-collapse: collapse;
   width: 80%;
 }
@@ -71,7 +71,9 @@ th, td {
 th {
   font-size: 18pt;
 }
-
+ul {
+  list-style-image: url('csharp.png');
+}
 /* tr:hover {
   background-color: #355678;
 } */
