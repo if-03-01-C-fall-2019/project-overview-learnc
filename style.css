@@ -74,6 +74,28 @@ th {
 ul {
   list-style-image: url('csharp.png');
 }
-/* tr:hover {
-  background-color: #355678;
-} */
+#navigation {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: black;
+}
+#navigation li {
+  display: inline;
+}
+.active {
+  color: white;
+  background-color: green;
+}
+li a {
+  color: green;
+  padding: 1%;
+  text-align: center;
+  font-size: 200%;
+  text-decoration: none;
+}
+a:hover:not(.active) {
+  color: green;
+  background-color: white;
+}
