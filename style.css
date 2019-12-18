@@ -94,6 +94,8 @@ li a {
   text-align: center;
   font-size: 200%;
   text-decoration: none;
+  display: inline-block;
+  float:left;
 }
 a:hover:not(.active) {
   color: green;
